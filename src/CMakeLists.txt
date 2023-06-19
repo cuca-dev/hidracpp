@@ -31,3 +31,4 @@ add_executable(${EXECUTABLE_NAME}
 )
 
 target_link_libraries(${EXECUTABLE_NAME} hidragui)
+install(TARGETS ${PROJECT_NAME})
